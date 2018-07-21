@@ -22,7 +22,18 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['logoutafterrevoke'] = 'Your consent was successfully revoked. To use this site, you must log in again and agree to the policy.';
-$string['pluginname'] = 'Revoke consent';
-$string['privacy:metadata'] = 'The plugin "Revoke consent" does not store any privacy data.';
-$string['revokeconsent'] = 'Revoke consent';
+namespace local_revoke_consent\privacy;
+
+defined('MOODLE_INTERNAL') || die();
+
+class provider implements \core_privacy\local\metadata\null_provider {
+
+    /**
+     * Get the language string identifier with the component's language
+     *
+     * @return  string
+     */
+    public static function get_reason() : string {
+        return 'privacy:metadata';
+    }
+}
