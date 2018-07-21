@@ -1,5 +1,5 @@
 Description:
-The plugin "Revoke consent" adds the missing feature to revoke the Privacy Policy in moodle.
+The plugin "Revoke consent" adds the missing feature to revoke the consent of the privacy policy in moodle.
 It can handle the in 3.5 introduced tool_policy and as well the legacy policy implementation.
 If the plugin is installed the user will find a new link in his profil to revoke the consent.
 
