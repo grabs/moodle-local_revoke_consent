@@ -45,7 +45,10 @@
 
 {{# str }}somefieldsrequired, form, <i class="icon fa fa-exclamation-circle text-danger fa-fw" title="{{# str }} required {{/ str }}" ></i>{{/ str }}
 <hr>
-
+<div class="revokeconsent_info py-1">
+    <i class="icon fa fa-info-circle text-info fa-fw" aria-hidden="true"></i>
+    {{#str}} revokeconsent_info, local_revoke_consent {{/str}}
+</div>
 <input type="submit" class="btn btn-primary" name="submit" value={{#quote}}{{#str}} next {{/str}}{{/quote}}>
 {{#cancancel}}
 <input type="submit" class="btn btn-secondary" name="cancel" value={{#quote}}{{#str}} cancel {{/str}}{{/quote}}>

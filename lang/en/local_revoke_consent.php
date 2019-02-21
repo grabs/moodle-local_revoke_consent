@@ -26,3 +26,5 @@ $string['logoutafterrevoke'] = 'Your consent was successfully revoked. To use th
 $string['pluginname'] = 'Revoke consent';
 $string['privacy:metadata'] = 'The plugin "Revoke consent" does not store any privacy data.';
 $string['revokeconsent'] = 'Revoke consent';
+$string['revokeconsent_info'] = 'To revoke your consent, uncheck the <strong>"I agree with ..."</strong> box next to the policy you want to revoke, and click <strong>Next</strong>.<br>
+If your consent to use this website is required, you will automatically be asked to resubmit your consent.';

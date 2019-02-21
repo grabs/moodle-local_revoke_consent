@@ -24,7 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version  = 2018072100;
+$plugin->version  = 2019022100;
 $plugin->requires = 2018050800;
 $plugin->maturity = MATURITY_BETA;
 $plugin->component = 'local_revoke_consent';
